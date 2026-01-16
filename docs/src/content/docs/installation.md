@@ -222,6 +222,6 @@ Now that you have Scribe2FHIR installed, you can:
 
 1. **[Explore the Python SDK](python-sdk/readme)** - Learn core concepts and API
 2. **[Check out examples](examples/example-usage)** - See practical implementations
-3. **[Understand FHIR resources](resources)** - Learn about supported resource types
+3. **[Understand FHIR specification](fhir-specification/readme)** - Learn about FHIR standards
 
 Ready to build your first FHIR resource? Head to the [Python SDK documentation](python-sdk/readme) to get started!

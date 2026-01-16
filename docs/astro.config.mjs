@@ -58,13 +58,6 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Resource Types',
-					items: [
-						{ label: 'FHIR Resource Types Overview', slug: 'resources' },
-						{ label: 'Patient Resource', slug: 'resources/patient' },
-					],
-				},
-				{
 					label: 'Examples',
 					autogenerate: { directory: 'examples' },
 				},
