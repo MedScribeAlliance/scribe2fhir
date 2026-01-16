@@ -128,7 +128,7 @@ def write_registry_docs():
     """Write registry documentation files"""
     
     # Ensure docs directory exists
-    docs_dir = Path("docs/src/content/docs/python-sdk")
+    docs_dir = Path("python/docs")
     docs_dir.mkdir(parents=True, exist_ok=True)
     
     # Generate code examples registry only (API registry removed per user request)
