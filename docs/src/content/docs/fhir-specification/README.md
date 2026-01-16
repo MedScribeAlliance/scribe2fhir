@@ -7,9 +7,9 @@ This directory contains comprehensive FHIR specification documentation for the s
 ## Documentation Structure
 
 ### Core Specification Documents
-- **[SDK Specification](sdk_specification)** - Complete FHIR resource specifications and output requirements
-- **[Element Requirements](element_requirements)** - Detailed field requirements and constraints for each element  
-- **[Implementation Guide](implementation_guide)** - Step-by-step guide for implementing new language SDKs
+- **[SDK Specification](../sdk_specification)** - Complete FHIR resource specifications and output requirements
+- **[Element Requirements](../element_requirements)** - Detailed field requirements and constraints for each element  
+- **[Implementation Guide](../implementation_guide)** - Step-by-step guide for implementing new language SDKs
 
 ### Purpose
 

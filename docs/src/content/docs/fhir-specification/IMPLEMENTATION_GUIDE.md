@@ -7,8 +7,8 @@ This guide provides step-by-step instructions for implementing scribe2fhir SDKs 
 ## Prerequisites
 
 Before implementing a new language SDK:
-1. Review [SDK Specification](sdk_specification) for complete FHIR output requirements
-2. Review [Element Requirements](element_requirements) for detailed constraints
+1. Review [SDK Specification](../sdk_specification) for complete FHIR output requirements
+2. Review [Element Requirements](../element_requirements) for detailed constraints
 3. Set up FHIR R5 library for your target language
 4. Establish JSON serialization capabilities
 5. Implement UUID v4 generation
