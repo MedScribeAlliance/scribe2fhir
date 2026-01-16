@@ -171,6 +171,6 @@ Each test validates:
 3. **Default Values** - Appropriate defaults applied where needed
 4. **References** - Patient/encounter references created correctly
 5. **Bundle Integration** - Resources appear properly in generated bundles
-6. **FHIR Compliance** - Generated resources conform to FHIR R4 specifications
+6. **FHIR Compliance** - Generated resources conform to FHIR R5 specifications
 
 The test suite ensures that every element from your example usage and sample JSON is thoroughly tested with both basic usage and comprehensive scenarios, providing confidence that the FHIR SDK works correctly across all supported functionality.

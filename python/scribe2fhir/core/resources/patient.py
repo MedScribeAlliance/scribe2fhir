@@ -29,7 +29,7 @@ from ..types import DateTimeInput, format_date
 
 class IdentifierType:
     """Common identifier types for patients."""
-    ABHA = ("ABHA", "http://nrces.in/ndhm/fhir/r4/CodeSystem/ndhm-identifier-type-code")
+    ABHA = ("ABHA", "http://nrces.in/ndhm/fhir/r5/CodeSystem/ndhm-identifier-type-code")
     MRN = ("MR", "http://terminology.hl7.org/CodeSystem/v2-0203")
     MOBILE = ("PHONE", "http://terminology.hl7.org/CodeSystem/v2-0203")
     NATIONAL_ID = ("NI", "http://terminology.hl7.org/CodeSystem/v2-0203")

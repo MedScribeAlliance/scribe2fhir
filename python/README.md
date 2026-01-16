@@ -150,7 +150,7 @@ To add support for new FHIR elements:
 ## Dependencies
 
 ### Core Dependencies
-- **fhir-resources**: FHIR R4 resource models
+- **fhir-resources**: FHIR R5 resource models
 - **pydantic**: Data validation and serialization
 - **typing-extensions**: Enhanced type hints
 
@@ -175,7 +175,7 @@ Each documentation file includes multiple usage examples:
 
 ## FHIR Compliance
 
-The SDK generates FHIR R4 compliant documents:
+The SDK generates FHIR R5 compliant documents:
 - All resources follow FHIR specifications
 - Required fields are populated automatically
 - Extensions are used appropriately
