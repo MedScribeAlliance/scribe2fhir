@@ -124,51 +124,14 @@ builder.add_observation(
     
     return examples
 
-def write_registry_docs():
-    """Write registry documentation files"""
-    
-    # Ensure docs directory exists
-    docs_dir = Path("python/docs")
-    docs_dir.mkdir(parents=True, exist_ok=True)
-    
-    # Generate code examples registry only (API registry removed per user request)
-    examples = generate_code_examples()
-    
-    examples_content = """---
-title: "Code Examples Registry"
-description: "Collection of code examples for common Scribe2FHIR operations"
----
-
-# Code Examples Registry
-
-This registry contains code examples for common Scribe2FHIR operations.
-
-"""
-    
-    for example_id, example in examples.items():
-        examples_content += f"""
-## {example['title']}
-
-{example['description']}
-
-```python{example['code']}```
-
-"""
-    
-    # Write examples registry
-    with open(docs_dir / "code-examples.md", "w") as f:
-        f.write(examples_content)
-    
-    print("✓ Generated code examples registry")
-
 def main():
     """Main function to generate registry documentation"""
     
     print("Generating Scribe2FHIR registry documentation...")
     
     try:
-        write_registry_docs()
-        print("✓ Registry documentation generated successfully")
+        # No longer generating any registry docs since code examples were removed
+        print("✓ Registry documentation generation skipped (code examples removed)")
         return 0
     
     except Exception as e:

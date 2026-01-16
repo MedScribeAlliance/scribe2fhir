@@ -4,7 +4,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://rushabh.github.io',
+	site: 'https://medscribealliance.github.io',
 	base: '/scribe2fhir',
 	integrations: [
 		starlight({
@@ -13,7 +13,7 @@ export default defineConfig({
 			social: [{ 
 				icon: 'github', 
 				label: 'GitHub', 
-				href: 'https://github.com/rushabh/scribe2fhir' 
+				href: 'https://github.com/MedScribeAlliance/scribe2fhir' 
 			}],
 			sidebar: [
 				{
@@ -55,7 +55,6 @@ export default defineConfig({
 						{ label: 'Follow-up Appointment', slug: 'python-sdk/followup_appointment' },
 						{ label: 'Patient Advice', slug: 'python-sdk/patient_advice' },
 						{ label: 'Symptom', slug: 'python-sdk/symptom' },
-						{ label: 'Code Examples', slug: 'python-sdk/code-examples' },
 					],
 				},
 				{

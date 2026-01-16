@@ -31,7 +31,7 @@ For development or to get the latest features:
 
 ```bash
 # Clone the repository
-git clone https://github.com/rushabh/scribe2fhir.git
+git clone https://github.com/MedScribeAlliance/scribe2fhir.git
 cd scribe2fhir
 
 # Install in development mode
@@ -114,7 +114,7 @@ For contributors or advanced users who want to modify the source code:
 
 ```bash
 # Clone the repository
-git clone https://github.com/rushabh/scribe2fhir.git
+git clone https://github.com/MedScribeAlliance/scribe2fhir.git
 cd scribe2fhir
 
 # Create virtual environment
@@ -213,7 +213,7 @@ pip install -i https://pypi.org/simple/ scribe2fhir
 If you encounter issues:
 
 1. Check the [troubleshooting section](/python-sdk/troubleshooting) in the documentation
-2. Search existing [GitHub issues](https://github.com/rushabh/scribe2fhir/issues)
+2. Search existing [GitHub issues](https://github.com/MedScribeAlliance/scribe2fhir/issues)
 3. Create a new issue with detailed error information
 
 ## Next Steps
