@@ -223,6 +223,6 @@ For large datasets:
 
 ## Next Steps
 
-- **[Explore specific resource documentation](/resources/patient)** for detailed implementation
-- **[Review Python SDK examples](/python-sdk)** for code samples
-- **[Check FHIR specification compliance](/fhir-specification)** for standards details
+- **[Explore specific resource documentation](patient)** for detailed implementation
+- **[Review Python SDK examples](../python-sdk/readme)** for code samples
+- **[Check FHIR specification compliance](../fhir-specification/readme)** for standards details

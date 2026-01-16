@@ -64,4 +64,4 @@ Scribe2FHIR follows a modular architecture designed for flexibility and scalabil
 
 ## Getting Started
 
-Ready to start using Scribe2FHIR? Check out the [Installation Guide](/installation) to set up the SDK in your environment.
+Ready to start using Scribe2FHIR? Check out the [Installation Guide](installation) to set up the SDK in your environment.

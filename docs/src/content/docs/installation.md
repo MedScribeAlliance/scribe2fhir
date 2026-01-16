@@ -212,7 +212,7 @@ pip install -i https://pypi.org/simple/ scribe2fhir
 
 If you encounter issues:
 
-1. Check the [troubleshooting section](/python-sdk/troubleshooting) in the documentation
+1. Check the [troubleshooting section](python-sdk/troubleshooting) in the documentation
 2. Search existing [GitHub issues](https://github.com/MedScribeAlliance/scribe2fhir/issues)
 3. Create a new issue with detailed error information
 
@@ -220,8 +220,8 @@ If you encounter issues:
 
 Now that you have Scribe2FHIR installed, you can:
 
-1. **[Explore the Python SDK](/python-sdk)** - Learn core concepts and API
-2. **[Check out examples](/examples)** - See practical implementations
-3. **[Understand FHIR resources](/resources)** - Learn about supported resource types
+1. **[Explore the Python SDK](python-sdk/readme)** - Learn core concepts and API
+2. **[Check out examples](examples/example-usage)** - See practical implementations
+3. **[Understand FHIR resources](resources)** - Learn about supported resource types
 
-Ready to build your first FHIR resource? Head to the [Python SDK documentation](/python-sdk) to get started!
+Ready to build your first FHIR resource? Head to the [Python SDK documentation](python-sdk/readme) to get started!

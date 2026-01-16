@@ -2,13 +2,29 @@
 
 A multi-language SDK for creating FHIR documents from clinical data.
 
+[![Documentation](https://img.shields.io/badge/Documentation-medscribealliance.github.io/scribe2fhir-blue?style=flat-square&logo=gitbook)](https://medscribealliance.github.io/scribe2fhir/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![FHIR R5](https://img.shields.io/badge/FHIR-R5-green?style=flat-square)](https://hl7.org/fhir/R5/)
+
+## 📖 Documentation
+
+**Complete documentation is available at: https://medscribealliance.github.io/scribe2fhir/**
+
+The documentation site includes:
+- **Getting Started Guide**: Installation and quick start
+- **FHIR R5 Specification**: Complete FHIR standards documentation  
+- **Python SDK Documentation**: Comprehensive API reference with examples
+- **Resource Types Guide**: Detailed FHIR resource documentation
+- **Code Examples**: Practical implementation examples
+
 ## Repository Structure
 
 ```
 scribe2fhir/
-├── docs/                           # Repository-wide documentation
-│   ├── fhir_specification/         # FHIR standard documentation
-│   └── objective_backlinking/      # Objective backlinking documentation
+├── docs/                           # Astro documentation site
+│   ├── src/content/docs/          # Markdown documentation content
+│   ├── astro.config.mjs           # Site configuration
+│   └── dist/                      # Built documentation site
 ├── python/                         # Python SDK implementation
 │   ├── scribe2fhir/               # Python package
 │   │   ├── core/                  # Core SDK functionality
@@ -59,11 +75,19 @@ Additional language SDKs will follow the same structure:
 
 ## Documentation Structure
 
-### Repository-level Documentation (`docs/`)
-- **FHIR Specification**: Standards and compliance documentation
-- **Objective Backlinking**: Cross-referencing and relationship documentation
+### 🌐 Web Documentation
+**Primary documentation site**: https://medscribealliance.github.io/scribe2fhir/
+- Built with Astro Starlight for optimal user experience
+- Comprehensive navigation and search functionality  
+- Mobile-responsive design
+- Automatically deployed from this repository
 
-### Language-specific Documentation (`{language}/docs/`)
+### 📁 Source Documentation (`docs/`)
+- **Astro Documentation Site**: Modern documentation framework
+- **FHIR Specification**: Standards and compliance documentation
+- **Resource Documentation**: FHIR resource guides and examples
+
+### 🐍 Python-specific Documentation (`python/docs/`)
 - Element-by-element usage guides
 - API reference documentation  
 - Integration examples
@@ -80,6 +104,7 @@ Each language implementation follows consistent patterns:
 MIT License - see LICENSE file for details.
 
 ## Support
-- Documentation: See language-specific docs folders
-- Issues: GitHub issues for bug reports and feature requests
-- Community: Discussion forums for usage questions
+
+- **📖 Documentation**: Visit https://medscribealliance.github.io/scribe2fhir/ for comprehensive guides
+- **🐛 Issues**: GitHub issues for bug reports and feature requests
+- **💬 Community**: Discussion forums for usage questions

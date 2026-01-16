@@ -637,14 +637,14 @@ def process_large_patient_dataset(patient_file):
 ## Related Resources
 
 Patient resources typically link to:
-- **[Encounter](/resources/encounter)**: Healthcare interactions
-- **[Condition](/resources/condition)**: Medical problems
-- **[Observation](/resources/observation)**: Clinical measurements
-- **[MedicationStatement](/resources/medication)**: Current medications
-- **[AllergyIntolerance](/resources/allergy)**: Known allergies
+- **[Encounter](encounter)**: Healthcare interactions
+- **[Condition](condition)**: Medical problems
+- **[Observation](observation)**: Clinical measurements
+- **[MedicationStatement](medication)**: Current medications
+- **[AllergyIntolerance](allergy)**: Known allergies
 
 ## Next Steps
 
-1. **[Create your first patient](/examples/basic-patient)** - Step-by-step example
-2. **[Learn about Encounters](/resources/encounter)** - Next resource to implement  
-3. **[Explore the Python SDK](/python-sdk)** - Full API documentation
+1. **[Create your first patient](../examples/basic-patient)** - Step-by-step example
+2. **[Learn about Encounters](encounter)** - Next resource to implement  
+3. **[Explore the Python SDK](../python-sdk/readme)** - Full API documentation

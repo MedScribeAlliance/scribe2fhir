@@ -369,8 +369,8 @@ upload_result = upload_patient_to_server()
 
 Now that you've seen these examples, you can:
 
-1. **[Explore Resource Types](/resources)** - Learn about all supported FHIR resources
-2. **[Check Python SDK Documentation](/python-sdk)** - Dive deeper into the API
-3. **[Review FHIR Specification](/fhir-specification)** - Understand FHIR standards implementation
+1. **[Explore Resource Types](../resources)** - Learn about all supported FHIR resources
+2. **[Check Python SDK Documentation](../python-sdk/readme)** - Dive deeper into the API
+3. **[Review FHIR Specification](../fhir-specification/readme)** - Understand FHIR standards implementation
 
 For more advanced examples and use cases, check the [GitHub repository](https://github.com/MedScribeAlliance/scribe2fhir).

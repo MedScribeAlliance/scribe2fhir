@@ -41,37 +41,37 @@ fhir_json = builder.convert_to_fhir()
 ## Element Documentation
 
 ### Core Elements
-- **[Patient](PATIENT.md)** - Patient demographics and contact information
-- **[Encounter](ENCOUNTER.md)** - Healthcare visits and interactions
+- **[Patient](../patient)** - Patient demographics and contact information
+- **[Encounter](../encounter)** - Healthcare visits and interactions
 
-### Clinical Observations  
-- **[Symptoms](SYMPTOM.md)** - Patient-reported symptoms and chief complaints
-- **[Vital Signs](VITAL_SIGNS.md)** - Measured physiological parameters
-- **[Lab Findings](LAB_FINDINGS.md)** - Laboratory test results and interpretations
-- **[Examination Findings](EXAMINATION_FINDINGS.md)** - Physical examination results
-- **[Lifestyle History](LIFESTYLE_HISTORY.md)** - Social history and lifestyle factors
+### Clinical Observations
+- **[Symptoms](../symptom)** - Patient-reported symptoms and chief complaints
+- **[Vital Signs](../vital_signs)** - Measured physiological parameters
+- **[Lab Findings](../lab_findings)** - Laboratory test results and interpretations
+- **[Examination Findings](../examination_findings)** - Physical examination results
+- **[Lifestyle History](../lifestyle_history)** - Social history and lifestyle factors
 
 ### Medical Conditions
-- **[Medical Conditions](MEDICAL_CONDITION.md)** - Diagnoses, medical history, and health problems
+- **[Medical Conditions](../medical_condition)** - Diagnoses, medical history, and health problems
 
 ### Medications
-- **[Medication Prescriptions](MEDICATION_PRESCRIPTION.md)** - Prescribed medications and dosages  
-- **[Medication History](MEDICATION_HISTORY.md)** - Current and past medication usage
+- **[Medication Prescriptions](../medication_prescription)** - Prescribed medications and dosages  
+- **[Medication History](../medication_history)** - Current and past medication usage
 
 ### Orders and Requests
-- **[Lab Test Ordering](LAB_TEST_ORDERING.md)** - Laboratory test orders and requirements
-- **[Procedure Ordering](PROCEDURE_ORDERING.md)** - Imaging and procedure orders
+- **[Lab Test Ordering](../lab_test_ordering)** - Laboratory test orders and requirements
+- **[Procedure Ordering](../procedure_ordering)** - Imaging and procedure orders
 
 ### Medical History
-- **[Family History](FAMILY_HISTORY.md)** - Family medical history and genetic factors
-- **[Allergy History](ALLERGY_HISTORY.md)** - Allergies, intolerances, and adverse reactions
-- **[Immunization History](IMMUNIZATION_HISTORY.md)** - Vaccination records and schedules
-- **[Procedure History](PROCEDURE_HISTORY.md)** - Past surgical procedures and interventions
+- **[Family History](../family_history)** - Family medical history and genetic factors
+- **[Allergy History](../allergy_history)** - Allergies, intolerances, and adverse reactions
+- **[Immunization History](../immunization_history)** - Vaccination records and schedules
+- **[Procedure History](../procedure_history)** - Past surgical procedures and interventions
 
 ### Care Planning
-- **[Follow-up Appointments](FOLLOWUP_APPOINTMENT.md)** - Scheduled appointments and referrals
-- **[Patient Advice](PATIENT_ADVICE.md)** - Patient instructions and recommendations  
-- **[Clinical Notes](CLINICAL_NOTES.md)** - Provider documentation and communication
+- **[Follow-up Appointments](../followup_appointment)** - Scheduled appointments and referrals
+- **[Patient Advice](../patient_advice)** - Patient instructions and recommendations  
+- **[Clinical Notes](../clinical_notes)** - Provider documentation and communication
 
 ## Code Input Best Practices
 
